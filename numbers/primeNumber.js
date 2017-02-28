@@ -10,6 +10,7 @@ const primeCheck = (n) => {
   return prime;
 }
 
+//return all factors of a number
 const primeFactor = (n) => {
   const factors = [1, n];
   for(let i = 2; i < Math.sqrt(n); i++){
